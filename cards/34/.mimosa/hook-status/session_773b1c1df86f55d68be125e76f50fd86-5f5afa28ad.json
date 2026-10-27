@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "mimosa-hook-status/v1",
+  "recordedAt": "2026-10-26T17:49:02.683Z",
+  "sessionId": "session_773b1c1df86f55d68be125e76f50fd86",
+  "event": "PostToolUse",
+  "toolName": "Edit",
+  "file": "C:\\Users\\fanqu\\Desktop\\cards_star\\_work\\run_local.py",
+  "outcome": "inconclusive",
+  "coverage": "partial",
+  "findingCount": 0,
+  "durationMs": 7,
+  "hostState": "hook_complete",
+  "reportHint": ".mimosa/reports/"
+}

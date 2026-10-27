@@ -1,0 +1,33 @@
+{
+  "title": "天音",
+  "subtitle": "MEMENTO · VII",
+  "technique": "VII",
+  "tagline": "",
+  "edition": "№ 40 / 41",
+  "collection": "深海塔罗",
+  "description": "深海塔罗 杂记 VII · 天音",
+  "assets": {
+    "subject": "./assets/subject.png",
+    "background": "./assets/background.png",
+    "text": "./assets/text.png",
+    "lineart": "./assets/lineart.png",
+    "effects": "./assets/effects.png",
+    "back": "./assets/back.png",
+    "model": "./assets/card.glb"
+  },
+  "parameters": {
+    "subjectScale": 1.25,
+    "subjectDepth": 0.55,
+    "backgroundDepth": -0.4,
+    "effectsScale": 1,
+    "effectsDepth": 0.7,
+    "foil": 0.65
+  },
+  "safeArea": {
+    "scale": 1.12,
+    "offset": [
+      -0.06,
+      -0.085
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>深海塔罗 · ABYSSAL TAROT</title>
+<style>
+  :root { --gold:#d4af69; --cream:#f0e9d6; --ink:#0a0e17; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:
+      radial-gradient(1200px 700px at 50% -10%, #16233d 0%, transparent 60%),
+      linear-gradient(#080b13, var(--ink) 40%, #101522);
+      color:var(--cream); font-family:"DengXian","Microsoft YaHei",sans-serif; }
+  header { max-width:1180px; margin:0 auto; padding:64px 24px 8px; position:relative; }
+  .rule { height:2px; background:linear-gradient(90deg,var(--gold),transparent 70%); margin:18px 0 8px; }
+  h1 { font-size:clamp(34px,6vw,64px); letter-spacing:.14em; margin:0; font-weight:800; }
+  h1 small { display:block; color:var(--gold); font-size:clamp(13px,1.6vw,17px); letter-spacing:.5em; margin-top:10px; font-weight:500; }
+  .deckmark { position:absolute; top:58px; right:28px; writing-mode:vertical-rl; color:var(--gold);
+      letter-spacing:.4em; font-size:15px; border:1px solid #d4af6955; padding:14px 6px; }
+  .intro { max-width:1180px; margin:0 auto; padding:6px 24px 26px; color:#b9c2d8; line-height:1.9; font-size:15px; }
+  .intro b { color:var(--gold); font-weight:600; }
+  .grid { max-width:1180px; margin:0 auto; padding:10px 24px 70px; display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:26px; }
+  .tile { text-decoration:none; color:inherit; display:block; perspective:700px; }
+  .frame { display:block; border:2px solid #d4af69aa; outline:1px solid #f0e9d622; outline-offset:5px;
+      border-radius:6px; overflow:hidden; transform-style:preserve-3d;
+      transition:transform .35s ease, box-shadow .35s ease, border-color .35s; }
+  .frame img { width:100%; display:block; }
+  .tile:hover .frame { transform:rotateX(6deg) rotateY(-9deg) translateZ(6px);
+      box-shadow:-14px 22px 34px #0009, 0 0 22px #d4af6933; border-color:var(--gold); }
+  .meta { display:flex; align-items:baseline; gap:10px; padding:10px 4px 0; }
+  .meta b { color:var(--gold); font-size:13px; letter-spacing:.12em; min-width:52px; }
+  .meta i { font-style:normal; font-size:19px; letter-spacing:.28em; }
+  .meta em { font-style:normal; margin-left:auto; color:#8fa0c0; font-size:12px; letter-spacing:.18em; }
+  footer { max-width:1180px; margin:0 auto; padding:0 24px 60px; color:#6f7c96; font-size:13px; line-height:2; }
+  footer b { color:var(--gold); }
+  .suit { max-width:1180px; margin:0 auto; padding:26px 24px 0; color:var(--gold); letter-spacing:.4em; font-size:14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="deckmark">深海塔罗</div>
+  <h1>深海塔罗<small>ABYSSAL&nbsp;TAROT&nbsp;·&nbsp;FORTY-ONE&nbsp;CARDS</small></h1>
+  <div class="rule"></div>
+</header>
+<p class="intro">一套 <b>41</b> 张的全息收藏卡牌：以 <b>俄国构成主义</b> 的几何版式与 <b>烫金条纹</b> 装帧，
+命名取塔罗体例——大阿卡纳 <b>I – X</b> 为白鲸女仆系列，另设 <b>花息 · 百怪 · 众相 · 杂记</b> 四组小牌。
+拖动卡面可环视，滚轮缩放，点击翻面；按住倾斜时镭射流光与流星尾迹随之游走。</p>
+<div class="suit">MAJOR ARCANA · 大阿卡纳</div>
+<div class="grid"><a class="tile" href="./cards/01/" title="白鲸"><span class="frame"><img loading="lazy" src="./thumbs/card01.jpg" alt="白鲸"></span><span class="meta"><b>I</b><i>白鲸</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/02/" title="鲸冠"><span class="frame"><img loading="lazy" src="./thumbs/card02.jpg" alt="鲸冠"></span><span class="meta"><b>II</b><i>鲸冠</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/03/" title="迎归"><span class="frame"><img loading="lazy" src="./thumbs/card03.jpg" alt="迎归"></span><span class="meta"><b>III</b><i>迎归</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/04/" title="墨憩"><span class="frame"><img loading="lazy" src="./thumbs/card04.jpg" alt="墨憩"></span><span class="meta"><b>IV</b><i>墨憩</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/05/" title="夜航"><span class="frame"><img loading="lazy" src="./thumbs/card05.jpg" alt="夜航"></span><span class="meta"><b>V</b><i>夜航</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/06/" title="侍立"><span class="frame"><img loading="lazy" src="./thumbs/card06.jpg" alt="侍立"></span><span class="meta"><b>VI</b><i>侍立</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/07/" title="鲸思"><span class="frame"><img loading="lazy" src="./thumbs/card07.jpg" alt="鲸思"></span><span class="meta"><b>VII</b><i>鲸思</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/08/" title="幼鲸"><span class="frame"><img loading="lazy" src="./thumbs/card08.jpg" alt="幼鲸"></span><span class="meta"><b>VIII</b><i>幼鲸</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/09/" title="鲸影"><span class="frame"><img loading="lazy" src="./thumbs/card09.jpg" alt="鲸影"></span><span class="meta"><b>IX</b><i>鲸影</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/10/" title="汐歌"><span class="frame"><img loading="lazy" src="./thumbs/card10.jpg" alt="汐歌"></span><span class="meta"><b>X</b><i>汐歌</i><em>MAJOR</em></span></a>
+<a class="tile" href="./cards/11/" title="初樱"><span class="frame"><img loading="lazy" src="./thumbs/card11.jpg" alt="初樱"></span><span class="meta"><b>I</b><i>初樱</i><em>花息</em></span></a>
+<a class="tile" href="./cards/12/" title="蓝樱"><span class="frame"><img loading="lazy" src="./thumbs/card12.jpg" alt="蓝樱"></span><span class="meta"><b>II</b><i>蓝樱</i><em>花息</em></span></a>
+<a class="tile" href="./cards/13/" title="琉璃"><span class="frame"><img loading="lazy" src="./thumbs/card13.jpg" alt="琉璃"></span><span class="meta"><b>III</b><i>琉璃</i><em>花息</em></span></a>
+<a class="tile" href="./cards/14/" title="紫陌"><span class="frame"><img loading="lazy" src="./thumbs/card14.jpg" alt="紫陌"></span><span class="meta"><b>IV</b><i>紫陌</i><em>花息</em></span></a>
+<a class="tile" href="./cards/15/" title="桃夭"><span class="frame"><img loading="lazy" src="./thumbs/card15.jpg" alt="桃夭"></span><span class="meta"><b>V</b><i>桃夭</i><em>花息</em></span></a>
+<a class="tile" href="./cards/16/" title="珊瑚"><span class="frame"><img loading="lazy" src="./thumbs/card16.jpg" alt="珊瑚"></span><span class="meta"><b>VI</b><i>珊瑚</i><em>花息</em></span></a>
+<a class="tile" href="./cards/17/" title="蓝雪"><span class="frame"><img loading="lazy" src="./thumbs/card17.jpg" alt="蓝雪"></span><span class="meta"><b>VII</b><i>蓝雪</i><em>花息</em></span></a>
+<a class="tile" href="./cards/18/" title="绯樱"><span class="frame"><img loading="lazy" src="./thumbs/card18.jpg" alt="绯樱"></span><span class="meta"><b>VIII</b><i>绯樱</i><em>花息</em></span></a>
+<a class="tile" href="./cards/19/" title="夜巡"><span class="frame"><img loading="lazy" src="./thumbs/card19.jpg" alt="夜巡"></span><span class="meta"><b>I</b><i>夜巡</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/20/" title="贪眠"><span class="frame"><img loading="lazy" src="./thumbs/card20.jpg" alt="贪眠"></span><span class="meta"><b>II</b><i>贪眠</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/21/" title="狐火"><span class="frame"><img loading="lazy" src="./thumbs/card21.jpg" alt="狐火"></span><span class="meta"><b>III</b><i>狐火</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/22/" title="月狐"><span class="frame"><img loading="lazy" src="./thumbs/card22.jpg" alt="月狐"></span><span class="meta"><b>IV</b><i>月狐</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/23/" title="戏水"><span class="frame"><img loading="lazy" src="./thumbs/card23.jpg" alt="戏水"></span><span class="meta"><b>V</b><i>戏水</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/24/" title="食瓜"><span class="frame"><img loading="lazy" src="./thumbs/card24.jpg" alt="食瓜"></span><span class="meta"><b>VI</b><i>食瓜</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/25/" title="听雨"><span class="frame"><img loading="lazy" src="./thumbs/card25.jpg" alt="听雨"></span><span class="meta"><b>VII</b><i>听雨</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/26/" title="稚浪"><span class="frame"><img loading="lazy" src="./thumbs/card26.jpg" alt="稚浪"></span><span class="meta"><b>VIII</b><i>稚浪</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/27/" title="焰龙"><span class="frame"><img loading="lazy" src="./thumbs/card27.jpg" alt="焰龙"></span><span class="meta"><b>IX</b><i>焰龙</i><em>百怪</em></span></a>
+<a class="tile" href="./cards/28/" title="笑靥"><span class="frame"><img loading="lazy" src="./thumbs/card28.jpg" alt="笑靥"></span><span class="meta"><b>I</b><i>笑靥</i><em>众相</em></span></a>
+<a class="tile" href="./cards/29/" title="蓝侍"><span class="frame"><img loading="lazy" src="./thumbs/card29.jpg" alt="蓝侍"></span><span class="meta"><b>II</b><i>蓝侍</i><em>众相</em></span></a>
+<a class="tile" href="./cards/30/" title="素衣"><span class="frame"><img loading="lazy" src="./thumbs/card30.jpg" alt="素衣"></span><span class="meta"><b>III</b><i>素衣</i><em>众相</em></span></a>
+<a class="tile" href="./cards/31/" title="雪耳"><span class="frame"><img loading="lazy" src="./thumbs/card31.jpg" alt="雪耳"></span><span class="meta"><b>IV</b><i>雪耳</i><em>众相</em></span></a>
+<a class="tile" href="./cards/32/" title="紫澜"><span class="frame"><img loading="lazy" src="./thumbs/card32.jpg" alt="紫澜"></span><span class="meta"><b>V</b><i>紫澜</i><em>众相</em></span></a>
+<a class="tile" href="./cards/33/" title="玄裾"><span class="frame"><img loading="lazy" src="./thumbs/card33.jpg" alt="玄裾"></span><span class="meta"><b>VI</b><i>玄裾</i><em>众相</em></span></a>
+<a class="tile" href="./cards/34/" title="烛灵"><span class="frame"><img loading="lazy" src="./thumbs/card34.jpg" alt="烛灵"></span><span class="meta"><b>I</b><i>烛灵</i><em>杂记</em></span></a>
+<a class="tile" href="./cards/35/" title="莳花"><span class="frame"><img loading="lazy" src="./thumbs/card35.jpg" alt="莳花"></span><span class="meta"><b>II</b><i>莳花</i><em>杂记</em></span></a>
+<a class="tile" href="./cards/36/" title="花影"><span class="frame"><img loading="lazy" src="./thumbs/card36.jpg" alt="花影"></span><span class="meta"><b>III</b><i>花影</i><em>杂记</em></span></a>
+<a class="tile" href="./cards/37/" title="织朱"><span class="frame"><img loading="lazy" src="./thumbs/card37.jpg" alt="织朱"></span><span class="meta"><b>IV</b><i>织朱</i><em>杂记</em></span></a>
+<a class="tile" href="./cards/38/" title="邀月"><span class="frame"><img loading="lazy" src="./thumbs/card38.jpg" alt="邀月"></span><span class="meta"><b>V</b><i>邀月</i><em>杂记</em></span></a>
+<a class="tile" href="./cards/39/" title="丛雨"><span class="frame"><img loading="lazy" src="./thumbs/card39.jpg" alt="丛雨"></span><span class="meta"><b>VI</b><i>丛雨</i><em>杂记</em></span></a>
+<a class="tile" href="./cards/40/" title="天音"><span class="frame"><img loading="lazy" src="./thumbs/card40.jpg" alt="天音"></span><span class="meta"><b>VII</b><i>天音</i><em>杂记</em></span></a>
+<a class="tile" href="./cards/41/" title="兔碟"><span class="frame"><img loading="lazy" src="./thumbs/card41.jpg" alt="兔碟"></span><span class="meta"><b>VIII</b><i>兔碟</i><em>杂记</em></span></a></div>
+<footer>
+  交互：<b>拖动</b> 环视 · <b>滚轮</b> 缩放 · <b>双击/翻面按钮</b> 查看卡背 · 面板可调 镭射强度 与各层景深 · 支持触屏与键盘方向键。<br>
+  每张卡由 Blender 视差材质构建，浏览器端以 GLSL 重建；本体为可编辑 .blend 工程与分层源图。
+</footer>
+</body>
+</html>
